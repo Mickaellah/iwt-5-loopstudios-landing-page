@@ -7,99 +7,113 @@
     <title>Loopstudios landing page</title>
     <link rel="stylesheet" href="./css/index.css">
 </head>
-<body>
-    <header>
-        <input type="checkbox">
-        <h1>
-            <img src="./images/logo.svg" alt="Logo">
-        </h1>
+<body class="loopstudios">
+    <header class="loopstudios__masthead">
+        <input class="loopstudios__masthead--input" id="checkbox_menu" type="checkbox">
+        <div class="loopstudios__masthead--header">
+            <img class="loopstudios__masthead--logo" src="./images/logo.svg" alt="Logo">
 
-        <div>
-            <label>Menu</label>
+            <div class="loopstudios__masthead--label">
+                <label class="loopstudios__masthead--label_menu" for="checkbox_menu">Menu</label>
+            </div>
         </div>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="/about">About</a>
-                </li>
-                <li>
-                    <a href="/careers">Careers</a>
-                </li>
-                <li>
-                    <a href="/events">Events</a>
-                </li>
-                <li>
-                    <a href="/products">Products</a>
-                </li>
-                <li>
-                    <a href="/support">Support</a>
-                </li>
-            </ul>
-        </nav>
+
+        <div class="modal">
+            <div class="modal_box">
+                <img class="close_button" src="../webroot/icons/icon-close.svg" alt="Close">
+                <nav class="loopstudios__masthead--navigation">
+                    <ul class="loopstudios__masthead--navigation_container">
+                        <li class="loopstudios__masthead--list_item">
+                            <a class="loopstudios__masthead--link" href="/about">About</a>
+                        </li>
+                        <li class="loopstudios__masthead--list_item">
+                            <a class="loopstudios__masthead--link" href="/careers">Careers</a>
+                        </li>
+                        <li class="loopstudios__masthead--list_item">
+                            <a class="loopstudios__masthead--link" href="/events">Events</a>
+                        </li>
+                        <li class="loopstudios__masthead--list_item">
+                            <a class="loopstudios__masthead--link" href="/products">Products</a>
+                        </li>
+                        <li class="loopstudios__masthead--list_item">
+                            <a class="loopstudios__masthead--link" href="/support">Support</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="loopstudios__masthead--content">
+            <p class="loopstudios__masthead--text">
+                Immersive experiences that deliver
+            </p>
+        </div>
     </header>
 
-    <div>
-        <p>
-            Immersive experiences that deliver
-        </p>
-    </div>
-
-    <main>
-        <section>
-            <img src="./images/mobile/image-interactive.jpg" alt="Interactive image">
-            <article>
-                <header>
-                    <h2>
+    <main class="loopstudios__main">
+        <section class="loopstudios__interactive">
+            <img class="loopstudios__interactive--image" src="./images/mobile/image-interactive.jpg" alt="Interactive image">
+            <article class="loopstudios__interactive--leader">
+                <header class="loopstudios__interactive--heading">
+                    <h2 class="loopstudios__interactive--header">
                         The leader in interactive VR
                     </h2>
                 </header>
 
-                <p>
+                <p class="loopstudios__interactive--content">
                     Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
                 </p>
             </article>
         </section>
-        <section>
-            <header>
-                <h2>
+        <section class="loopstudios__creations">
+            <header class="loopstudios__creations--heading">
+                <h2 class="loopstudios__creations--header">
                     Our creations
                 </h2>
             </header>
 
-            <nav>
-                <ul>
-                    <li>
-                        <img src="./images/mobile/image-deep-earth.jpg" alt="Deep earth">
-                        <p>Deep earth</p>
+            <nav class="loopstudios__creations--navigation">
+                <ul class="loopstudios__creations--navigation_container">
+                    <li class="loopstudios__creations--list_item loopstudios__creations--list_item_earth">
+                        <p class="loopstudios__creations--text">
+                            Deep earth
+                        </p>
                     </li>
-                    <li>
-                        <img src="./images/mobile/image-night-arcade.jpg" alt="Night arcade">
-                        <p>Night arcade</p>
+                    <li class="loopstudios__creations--list_item loopstudios__creations--list_item_arcade">
+                        <p class="loopstudios__creations--text">
+                            Night arcade
+                        </p>
                     </li>
-                    <li>
-                        <img src="./images/mobile/image-soccer-team.jpg" alt="Soccer team">
-                        <p>Soccer team VR</p>
+                    <li class="loopstudios__creations--list_item loopstudios__creations--list_item_soccer ">
+                        <p class="loopstudios__creations--text">
+                            Soccer team VR
+                        </p>
                     </li>
-                    <li>
-                        <img src="./images/mobile/image-grid.jpg" alt="The grid">
-                        <p>The grid</p>
+                    <li class="loopstudios__creations--list_item loopstudios__creations--list_item_grid">
+                        <p class="loopstudios__creations--text">
+                            The grid
+                        </p>
                     </li>
-                    <li>
-                        <img src="./images/mobile/image-from-above.jpg" alt="From above">
-                        <p>From up above VR</p>
+                    <li class="loopstudios__creations--list_item loopstudios__creations--list_item_above">
+                        <p class="loopstudios__creations--text">
+                            From up above VR
+                        </p>
                     </li>
-                    <li>
-                        <img src="./images/mobile/image-pocket-borealis.jpg" alt="Pocket borealis">
-                        <p>Pocket borealis</p>
+                    <li class="loopstudios__creations--list_item loopstudios__creations--list_item_borealis" >
+                        <p class="loopstudios__creations--text">
+                            Pocket borealis
+                        </p>
                     </li>
-                    <li>
-                        <img src="./images/mobile/image-curiosity.jpg" alt="The curiosity">
-                        <p>The curiosity</p>
+                    <li class="loopstudios__creations--list_item loopstudios__creations--list_item_curiosity">
+                        <p class="loopstudios__creations--text">
+                            The curiosity
+                        </p>
                     </li>
-                    <li>
-                        <img src="./images/mobile/image-fisheye.jpg" alt="fisheye">
-                        <p>Make it fisheye</p>
+                    <li class="loopstudios__creations--list_item loopstudios__creations--list_item_fisheye">
+                        <p class="loopstudios__creations--text">
+                            Make it fisheye
+                        </p>
                     </li>
                 </ul>
             </nav>
@@ -147,5 +161,7 @@
             </ul>
         </nav>
     </footer>
+
+    <script src="../webroot/script.js"></script>
 </body>
 </html>

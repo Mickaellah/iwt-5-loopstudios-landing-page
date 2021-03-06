@@ -1,0 +1,176 @@
+.loopstudios__creations {
+    padding: 32px;
+    margin-block-start: 64px;
+}
+
+.loopstudios__creations--header {
+    color: black;
+}
+
+.loopstudios__creations--list_item {
+    margin-block-start: 48px;
+}
+
+.loopstudios__creations--list_item_earth {
+    background-image: url('../images/mobile/image-deep-earth.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-inline: 32px;
+    padding-block-start: 102px;
+    padding-block-end: 64px;
+}
+
+.loopstudios__creations--list_item_arcade {
+    background-image: url('../images/mobile/image-night-arcade.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-inline: 32px;
+    padding-block-start: 102px;
+    padding-block-end: 64px;
+}
+
+.loopstudios__creations--list_item_soccer {
+    background-image: url('../images/mobile/image-soccer-team.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-inline: 32px;
+    padding-block-start: 102px;
+    padding-block-end: 64px;
+}
+
+.loopstudios__creations--list_item_grid {
+    background-image: url('../images/mobile/image-grid.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-inline: 32px;
+    padding-block-start: 102px;
+    padding-block-end: 64px;
+}
+
+.loopstudios__creations--list_item_above {
+    background-image: url('../images/mobile/image-from-above.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-inline: 32px;
+    padding-block-start: 102px;
+    padding-block-end: 64px;
+    
+}
+
+.loopstudios__creations--list_item_borealis {
+    background-image: url('../images/mobile/image-pocket-borealis.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-inline: 32px;
+    padding-block-start: 102px;
+    padding-block-end: 64px;
+}
+
+.loopstudios__creations--list_item_curiosity {
+    background-image: url('../images/mobile/image-curiosity.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-inline: 32px;
+    padding-block-start: 102px;
+    padding-block-end: 64px;
+}
+
+.loopstudios__creations--list_item_fisheye {
+    background-image: url('../images/mobile/image-fisheye.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-inline: 32px;
+    padding-block-start: 102px;
+    padding-block-end: 64px;
+}
+
+.loopstudios__creations--text {
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-block-start: 32px;
+}
+
+@media (min-width: 700px) {
+    .loopstudios__creations {
+        max-width: 1114px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+
+    .loopstudios__creations--navigation_container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 24px;
+        column-gap: 24px;
+    }
+
+    .loopstudios__creations--list_item_earth {
+        background-image: url('../images/desktop/image-deep-earth.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .loopstudios__creations--list_item_arcade {
+        background-image: url('../images/desktop/image-night-arcade.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .loopstudios__creations--list_item_soccer {
+        background-image: url('../images/desktop/image-soccer-team.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .loopstudios__creations--list_item_grid {
+        background-image: url('../images/desktop/image-grid.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .loopstudios__creations--list_item_above {
+        background-image: url('../images/desktop/image-from-above.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .loopstudios__creations--list_item_borealis {
+        background-image: url('../images/desktop/image-pocket-borealis.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .loopstudios__creations--list_item_curiosity {
+        background-image: url('../images/desktop/image-curiosity.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .loopstudios__creations--list_item_fisheye {
+        background-image: url('../images/desktop/image-fisheye.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .loopstudios__creations--text {
+        margin-block-start: 96px;
+        margin-block-end: 0;
+        padding-block-end: 0;
+    }
+}

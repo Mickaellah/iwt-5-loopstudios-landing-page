@@ -1,0 +1,36 @@
+.loopstudios__interactive {
+    padding: 32px;
+    margin-block-start: 48px;
+    color: black;
+}
+
+.loopstudios__interactive--leader {
+    text-align: center;
+}
+
+.loopstudios__interactive--header {
+    text-transform: uppercase;
+}
+
+@media (min-width: 900px) {
+    .loopstudios__interactive {
+        position: relative;
+        max-width: 1114px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+
+    .loopstudios__interactive--image {
+        width: 70%;
+    }
+
+    .loopstudios__interactive--leader {
+        position: absolute;
+        background-color: white;
+        padding-block: 110px;
+        padding-inline: 48px;
+        left: 55%;
+        top: 35%;
+        text-align: start;
+    }
+}
