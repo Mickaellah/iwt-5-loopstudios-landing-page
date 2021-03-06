@@ -32,3 +32,83 @@ a {
 
 img {
   width: 100%; }
+
+.loopstudios__footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 48px;
+  font-family: "Alata"; }
+
+.loopstudios__footer__logo {
+  width: 40%; }
+
+.loopstudios__footer__link_navigation {
+  margin-block-start: 48px; }
+
+.loopstudios__footer__link_list_item {
+  margin-block-start: 24px; }
+
+.loopstudios__footer_link {
+  color: white; }
+
+.loopstudios__footer__social_navigation {
+  margin-block-start: 48px; }
+
+.loopstudios__footer__social_navigation--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.loopstudios__footer__social_navigation--list_item:not(:nth-child(1)) {
+  margin-inline-start: 16px; }
+
+.loopstudios__footer_social_link {
+  color: transparent; }
+
+.loopstudios__footer_social_link--facebook {
+  background-image: url("../icons/icon-facebook.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 8px; }
+
+.loopstudios__footer_social_link--twitter {
+  background-image: url("../icons/icon-twitter.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 8px; }
+
+.loopstudios__footer_social_link--pinterest {
+  background-image: url("../icons/icon-pinterest.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 8px; }
+
+.loopstudios__footer_social_link--instagram {
+  background-image: url("../icons/icon-instagram.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 8px; }
+
+@media (min-width: 700px) {
+  .loopstudios__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: starts;
+    padding: 0; }
+  .loopstudios__footer > * {
+    max-width: 1440px;
+    margin-inline-start: auto;
+    margin-inline-end: auto; }
+  .loopstudios__footer__container {
+    text-align: start;
+    margin-block-end: 48px; }
+  .loopstudios__footer__logo {
+    margin-block-start: 64px; }
+  .loopstudios__footer__link_navigation_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .loopstudios__footer_link:not(.loopstudios__footer__link_list_item:nth-child(1) > .loopstudios__footer_link) {
+    margin-inline-start: 32px; } }
